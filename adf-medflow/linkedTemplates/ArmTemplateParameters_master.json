@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-medflow"
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "1121-092724-w84llexn"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://medflowproject.dfs.core.windows.net/"
+		},
+		"LS_AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://medflow-keyvault.vault.azure.net/"
+		},
+		"LS_AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "medflow-server.database.windows.net"
+		},
+		"LS_AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "sql-db-medflow"
+		},
+		"LS_AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "Ashutosh"
+		},
+		"LS_PostgreSql1_properties_typeProperties_server": {
+			"value": "ep-long-dawn-a1o8i74z-pooler.ap-southeast-1.aws.neon.tech"
+		},
+		"LS_PostgreSql1_properties_typeProperties_database": {
+			"value": "neondb"
+		},
+		"LS_PostgreSql1_properties_typeProperties_username": {
+			"value": "neondb_owner"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
